@@ -1,0 +1,104 @@
+body {
+  background-color:rgb(54, 53, 55);
+  color: rgb(250, 250, 250);
+  font-family: 'Poor story', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Griffy', display;
+}
+
+h1{
+  color:red;
+}
+
+h2 {
+  color: rgb(37, 129, 70)
+;
+}
+
+
+div {
+  background:rgb(212, 228, 188);            /* White background */
+  padding: 32px;                             /* Internal space */
+  border-radius: 10px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 800px;
+  margin: 16px auto;
+  color: rgb(250, 250, 250);
+  font-size: 30px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 0px 5px 0px rgb(255, 0, 153);
+
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow:2px 2px 3px black;
+}
+
+.btn-purple {
+  background: purple;
+  color: white;
+  padding: 24px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: .3s;
+  display:inline-block;
+}
+
+.btn-purple:hover {
+  background: pink;
+  border-radius: 60px;
+  transition: .3s;
+}
+
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+i {
+  font-size: 32px;
+}
+
+.clem-zone {
+  cursor:url('image/cursor.jpg'), auto;
+  background-size:contain;
+  background-image:url('https://i.pinimg.com/originals/ea/a2/ba/eaa2ba35fee4c81d2130878c580352d9.gif');
+}
+
+.titre-red {
+  color: red;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 80px;
+  text-shadow: 20px 10px 20px rgb(0, 255, 0);
+  margin: 0;
+  font-weight: bold;
+}
+
+.background-matrix {
+  background-image:url('https://thumbs.gfycat.com/AcrobaticGoodnaturedBooby-size_restricted.gif');
+  text-shadow: 30px 10px 30px rgb(0,0,0)
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(720deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
